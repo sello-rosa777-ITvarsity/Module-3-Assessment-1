@@ -1,31 +1,37 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>my reciepe book</title>
-    
-    <link rel="stylesheet" href="style.css">
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport " content="width-device-width. initial scale-1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="fontawesome/css/all.css"/>    
     </head>
-    
     <body class="body-home">
-    <div id="home">
-        <img src="images/logo-img.png" id="home-logo-img">
-        <img src="images/logo-text.png" id="home-logo-text">
-       <div id="home-menu" >
-           
-        <a href="meals.html"class=home-menu-item>
+        
+        <img class="home-logo-img" src="images/logo-img.png">
+        <img class="home-logo-txt" src="images/logo-text.png">
+        
+        <div id="home-menu">
             
-          <P>meals</P> 
-           </a>
-           <a href="drinks.html"class=home-menu-item>
+            <div class="home-menu">
+                <a href="list-recipes.html?category=main" class="home-menu-item">
+                    <p>Meals</p>
+                </a>
+            </div>
             
-          <P>drinks</P> 
-           </a>
-           <a href="deserts.html"class=home-menu-item>
+            <div class="home-menu">
+                <a href="list-recipes.html?category=drink" class="home-menu-item">
+                    <p>Drinks</p>
+                </a>
+            </div>
             
-          <P>deserts</P> 
-           </a>
-        </div>
+            <div class="home-menu">
+                <a href="list-recipes.html?category=dessert" class="home-menu-item">
+                    <p>Deserts</p>
+                </a>
+            </div>
+        
         </div>
     </body>
+
 </html>
